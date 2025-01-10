@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Event Registration</title>
+</head>
+<body>
+    <h1>Online Event Registration</h1>
+    <form action="/content" method="post">
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" requizzred><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="example@mail.com"><br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="123-456-7890"><br><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+        <label for="age-group">Age Group:</label>
+        <select id="age-group" name="age-group" required>
+            <option value="under-18">Under 18</option>
+            <option value="18-25">18-25</option>
+            <option value="26-35">26-35</option>
+            <option value="36-45">36-45</option>
+            <option value="46-60">46-60</option>
+            <option value="60+">60+</option>
+        </select><br><br>
+        <label>Topics of Interest:</label><br>
+        <input type="checkbox" id="topic1" name="topics" value="Technology">
+        <label for="topic1">Technology</label><br>
+        <input type="checkbox" id="topic2" name="topics" value="Science">
+        <label for="topic2">Science</label><br>
+        <input type="checkbox" id="topic3" name="topics" value="Art">
+        <label for="topic3">Art</label><br>
+        <input type="checkbox" id="topic4" name="topics" value="Business">
+        <label for="topic4">Business</label><br><br>
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
 
