@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Submission Form</title>
+</head>
+<body>
+    <h1>Online Quiz Submission Form</h1>
+    <form action="/done" method="post">
+        <label for="full-name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="example@mail.com"><br><br>
+        <h2>Questions:</h2>
+        <p>Q1. Who was the first Prime Minister of India?</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Nirranjan</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Gandhi</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Nehru</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Bose</label><br><br>
+        <p>Q2. In which year did India gain independence?</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">1945</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">1949</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">1947</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">1948</label><br><br>
+        <p>Q3. Who was the first President of India?</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Nirranjan</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Gandhi</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Nehru</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Rajendra Prasad</label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
